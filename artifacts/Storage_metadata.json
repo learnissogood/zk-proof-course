@@ -65,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HelloWorkd.sol": "Storage"
+			"HelloWorld.sol": "Storage"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -79,7 +79,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"HelloWorkd.sol": {
+		"HelloWorld.sol": {
 			"keccak256": "0xa2d1ac53a2e753b3af62cbda3c204018d33cfd3e3000bf9f2db3d604ddd9d660",
 			"license": "GPL-3.0",
 			"urls": [

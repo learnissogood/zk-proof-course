@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieveNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "storeNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {
+				"retrieveNumber()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"storeNumber(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"stateVariables": {
+				"number": {
+					"details": "variable that store a uint"
+				}
+			},
+			"title": "Hello World",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HelloWorkd.sol": "Storage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HelloWorkd.sol": {
+			"keccak256": "0xa2d1ac53a2e753b3af62cbda3c204018d33cfd3e3000bf9f2db3d604ddd9d660",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e03dfedef57291ce6145e36d2f5e74421c1289c9d0177e713fe7c4ca85dbabf1",
+				"dweb:/ipfs/Qmajvymk7Ri4gnZ62gY9UgD3v7x1WcZCWZVRtcgY9aHB6Q"
+			]
+		}
+	},
+	"version": 1
+}
